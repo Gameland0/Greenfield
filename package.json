@@ -1,0 +1,33 @@
+{
+  "name": "gameland-server",
+  "version": "0.0.1",
+  "author": "Leo",
+  "main": "server.js",
+  "dependencies": {
+    "@bnb-chain/greenfield-js-sdk": "^1.2.0",
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
+    "busboy": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.4.7",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.4.3",
+    "formidable": "^2.0.1",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
+    "multiparty": "^4.2.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.0",
+    "node-cmd": "^5.0.0",
+    "sequelize": "^6.6.5",
+    "web3": "^1.5.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "ethereum-waffle": "^3.4.0"
+  }
+}
